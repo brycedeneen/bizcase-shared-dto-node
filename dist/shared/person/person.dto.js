@@ -27,20 +27,5 @@ __decorate([
     }),
     __metadata("design:type", Boolean)
 ], PersonDTO.prototype, "isActive", void 0);
-__decorate([
-    (0, swagger_1.ApiProperty)({
-        description: 'When this record goes into effect',
-        format: 'yyyy-MM-dd',
-    }),
-    __metadata("design:type", String)
-], PersonDTO.prototype, "effectiveDate", void 0);
-__decorate([
-    (0, swagger_1.ApiProperty)({
-        description: 'Effective dated records',
-        isArray: true,
-        required: false,
-    }),
-    __metadata("design:type", Array)
-], PersonDTO.prototype, "effectiveDatedRecords", void 0);
 exports.PersonDTO = PersonDTO;
 //# sourceMappingURL=person.dto.js.map

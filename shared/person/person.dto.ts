@@ -11,19 +11,6 @@ export class PersonDTO {
         description: 'Is this person active',
     })
     isActive: boolean;
-
-    @ApiProperty({
-        description: 'When this record goes into effect',
-        format: 'yyyy-MM-dd',
-    })
-    effectiveDate: string;
-
-    @ApiProperty({
-        description: 'Effective dated records',
-        isArray: true,
-        required: false,
-    })
-    effectiveDatedRecords: PersonDTO[];
 }
 
 export interface IPersonDTO extends PersonDTO {}

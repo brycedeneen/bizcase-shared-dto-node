@@ -1,6 +1,0 @@
-import { IIntegrationMappingDTO as IIntegrationMappingV1DTO, IntegrationMappingDTO as IntegrationMappingV1DTO } from './integrationMapping.dto';
-import { IIntegrationMappingFieldDTO as IIntegrationMappingFieldV1DTO, IntegrationMappingFieldDTO as IntegrationMappingFieldV1DTO } from './integrationMappingField.dto';
-import { CreateIntegrationMappingDTO as CreateIntegrationMappingV1DTO, ICreateIntegrationMappingDTO as ICreateIntegrationMappingV1DTO } from './createIntegrationMapping.dto';
-import { CreateIntegrationMappingFieldDTO as CreateIntegrationMappingFieldV1DTO, ICreateIntegrationMappingFieldDTO as ICreateIntegrationMappingFieldV1DTO } from './createIntegrationMappingField.dto';
-import { IUpdateIntegrationMappingFieldDTO as IUpdateIntegrationMappingFieldV1DTO, UpdateIntegrationMappingFieldDTO as UpdateIntegrationMappingFieldV1DTO } from './updateIntegrationMappingField.dto';
-export { IntegrationMappingV1DTO, IIntegrationMappingV1DTO, IntegrationMappingFieldV1DTO, IIntegrationMappingFieldV1DTO, CreateIntegrationMappingV1DTO, ICreateIntegrationMappingV1DTO, CreateIntegrationMappingFieldV1DTO, ICreateIntegrationMappingFieldV1DTO, UpdateIntegrationMappingFieldV1DTO, IUpdateIntegrationMappingFieldV1DTO, };

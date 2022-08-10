@@ -1,1 +1,0 @@
-{"version":3,"file":"deleteEffectiveDate.dto.js","sourceRoot":"","sources":["../../../shared/effectiveDating/deleteEffectiveDate.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,6CAA8C;AAE9C,MAAa,sBAAsB;CAOlC;AADG;IALC,IAAA,qBAAW,EAAC;QACT,WAAW,EAAE,gDAAgD;QAC7D,OAAO,EAAE,OAAO;QAChB,MAAM,EAAE,YAAY;KACvB,CAAC;;6DACoB;AAN1B,wDAOC"}

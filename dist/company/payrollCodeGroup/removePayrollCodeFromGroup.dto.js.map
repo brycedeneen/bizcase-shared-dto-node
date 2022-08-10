@@ -1,1 +1,0 @@
-{"version":3,"file":"removePayrollCodeFromGroup.dto.js","sourceRoot":"","sources":["../../../company/payrollCodeGroup/removePayrollCodeFromGroup.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,6CAA8C;AAE9C,MAAa,6BAA6B;CAMzC;AADG;IAJC,IAAA,qBAAW,EAAC;QACT,QAAQ,EAAE,IAAI;QACd,WAAW,EAAE,oDAAoD;KACpE,CAAC;;oEACoB;AAL1B,sEAMC"}
