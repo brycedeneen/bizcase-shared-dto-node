@@ -1,3 +1,3 @@
 import * as company from './company';
-
-export { company };
+import * as theme from './theme';
+export { company, theme };
