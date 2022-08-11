@@ -1,4 +1,4 @@
-import { SegmentDTO as SegmentV1DTO, ISegmentDTO as ISegmentV1DTO } from './segment.dto';
-import { CreateSegmentDTO as CreateSegmentV1DTO, ICreateSegmentDTO as ICreateSegmentV1DTO } from './createSegment.dto';
-import { UpdateSegmentDTO as UpdateSegmentV1DTO, IUpdateSegmentDTO as IUpdateSegmentV1DTO } from './updateSegment.dto';
-export { SegmentV1DTO, ISegmentV1DTO, CreateSegmentV1DTO, ICreateSegmentV1DTO, UpdateSegmentV1DTO, IUpdateSegmentV1DTO, };
+import { ConceptSegmentDTO as ConceptSegmentV1DTO, IConceptSegmentDTO as IConceptSegmentV1DTO } from './conceptSegment.dto';
+import { CreateConceptSegmentDTO as CreateConceptSegmentV1DTO, ICreateConceptSegmentDTO as ICreateConceptSegmentV1DTO } from './createConceptSegment.dto';
+import { IUpdateConceptSegmentDTO as IUpdateConceptSegmentV1DTO, UpdateConceptSegmentDTO as UpdateConceptSegmentV1DTO } from './updateConceptSegment.dto';
+export { ConceptSegmentV1DTO, IConceptSegmentV1DTO, CreateConceptSegmentV1DTO, ICreateConceptSegmentV1DTO, UpdateConceptSegmentV1DTO, IUpdateConceptSegmentV1DTO, };

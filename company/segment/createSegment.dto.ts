@@ -1,12 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 
 export class CreateSegmentDTO {
-    @ApiProperty({ description: 'Segment Name' })
-    name: string;
-
-    @ApiProperty({ description: 'Segment Description' })
-    description: string;
-
     @ApiProperty({ description: 'Number of customers in this segment' })
     numberOfCustomers: number;
 
@@ -42,9 +36,6 @@ export class CreateSegmentDTO {
 
     @ApiProperty({ description: 'The average annual revenue list price for upsell sales', example: 12 })
     averageAnnualSalePricePerUpsellSell: number;
-
-    @ApiProperty({ description: 'The number of months from the development cycle start date to when development can start in months', example: 6 })
-    monthsUntilDevelopmentStart: number;
 
     @ApiProperty({ description: 'The average or expected sales cycle time for new logos in months', example: 3 })
     averageNewLogoSalesCycleinMonths: number;
@@ -129,89 +120,6 @@ export class CreateSegmentDTO {
         default: 0.0834
     })
     averageSalesPercentDecember: number;
-
-    // Y1 Sales Start
-    @ApiProperty({
-        description: 'The number of customers that would be saved from attrition in Year 1', example: 25,
-    })
-    numberOfCustomersSavedFromAttritionY1: number;
-
-    @ApiProperty({
-        description: 'The number of customers that will leave if this concept is not completed in Year 1', example: 5,
-    })
-    numberOfCustomersThatWillAttritWithoutThisFeatureY1: number;
-
-    @ApiProperty({
-        description: 'The number of new logos attributed to the delivery of this concept in Year 1', example: 5,
-    })
-    numberOfNewLogosAttributedToThisConceptY1: number;
-
-    @ApiProperty({
-        description: 'The number of cross sell customers attributed to the delivery of this concept in Year 1', example: 5,
-    })
-    numberOfCrossSellCustomersAttributedToThisConceptY1: number;
-
-    @ApiProperty({
-        description: 'The number of upsell sell customers attributed to the delivery of this concept in Year 1', example: 5,
-    })
-    numberOfUpsellSellCustomersAttributedToThisConceptY1: number;
-    // Y1 Sales End
-
-
-    // Y2 Sales Start
-    @ApiProperty({
-        description: 'The number of customers that would be saved from attrition in Year 2', example: 25,
-    })
-    numberOfCustomersSavedFromAttritionY2: number;
-
-    @ApiProperty({
-        description: 'The number of customers that will leave if this concept is not completed in Year 2', example: 5,
-    })
-    numberOfCustomersThatWillAttritWithoutThisFeatureY2: number;
-
-    @ApiProperty({
-        description: 'The number of new logos attributed to the delivery of this concept in Year 2', example: 5,
-    })
-    numberOfNewLogosAttributedToThisConceptY2: number;
-
-    @ApiProperty({
-        description: 'The number of cross sell customers attributed to the delivery of this concept in Year 2', example: 5,
-    })
-    numberOfCrossSellCustomersAttributedToThisConceptY2: number;
-
-    @ApiProperty({
-        description: 'The number of upsell sell customers attributed to the delivery of this concept in Year 2', example: 5,
-    })
-    numberOfUpsellSellCustomersAttributedToThisConceptY2: number;
-    // Y2 Sales End
-
-
-    // Y3 Sales Start
-    @ApiProperty({
-        description: 'The number of customers that would be saved from attrition in Year 3', example: 25,
-    })
-    numberOfCustomersSavedFromAttritionY3: number;
-
-    @ApiProperty({
-        description: 'The number of customers that will leave if this concept is not completed in Year 3', example: 5,
-    })
-    numberOfCustomersThatWillAttritWithoutThisFeatureY3: number;
-
-    @ApiProperty({
-        description: 'The number of new logos attributed to the delivery of this concept in Year 3', example: 5,
-    })
-    numberOfNewLogosAttributedToThisConceptY3: number;
-
-    @ApiProperty({
-        description: 'The number of cross sell customers attributed to the delivery of this concept in Year 3', example: 5,
-    })
-    numberOfCrossSellCustomersAttributedToThisConceptY3: number;
-
-    @ApiProperty({
-        description: 'The number of upsell sell customers attributed to the delivery of this concept in Year 3', example: 5,
-    })
-    numberOfUpsellSellCustomersAttributedToThisConceptY3: number;
-    // Y3 Sales End
 }
 
 export interface ICreateSegmentDTO extends CreateSegmentDTO { }

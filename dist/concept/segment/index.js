@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UpdateSegmentV1DTO = exports.CreateSegmentV1DTO = exports.SegmentV1DTO = void 0;
-const segment_dto_1 = require("./segment.dto");
-Object.defineProperty(exports, "SegmentV1DTO", { enumerable: true, get: function () { return segment_dto_1.SegmentDTO; } });
-const createSegment_dto_1 = require("./createSegment.dto");
-Object.defineProperty(exports, "CreateSegmentV1DTO", { enumerable: true, get: function () { return createSegment_dto_1.CreateSegmentDTO; } });
-const updateSegment_dto_1 = require("./updateSegment.dto");
-Object.defineProperty(exports, "UpdateSegmentV1DTO", { enumerable: true, get: function () { return updateSegment_dto_1.UpdateSegmentDTO; } });
+exports.UpdateConceptSegmentV1DTO = exports.CreateConceptSegmentV1DTO = exports.ConceptSegmentV1DTO = void 0;
+const conceptSegment_dto_1 = require("./conceptSegment.dto");
+Object.defineProperty(exports, "ConceptSegmentV1DTO", { enumerable: true, get: function () { return conceptSegment_dto_1.ConceptSegmentDTO; } });
+const createConceptSegment_dto_1 = require("./createConceptSegment.dto");
+Object.defineProperty(exports, "CreateConceptSegmentV1DTO", { enumerable: true, get: function () { return createConceptSegment_dto_1.CreateConceptSegmentDTO; } });
+const updateConceptSegment_dto_1 = require("./updateConceptSegment.dto");
+Object.defineProperty(exports, "UpdateConceptSegmentV1DTO", { enumerable: true, get: function () { return updateConceptSegment_dto_1.UpdateConceptSegmentDTO; } });
 //# sourceMappingURL=index.js.map
