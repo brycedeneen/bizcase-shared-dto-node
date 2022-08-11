@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CreateConceptDTO = void 0;
 const swagger_1 = require("@nestjs/swagger");
+const concept_1 = require("../../enums/concept");
 class CreateConceptDTO {
 }
 __decorate([
@@ -25,13 +26,13 @@ __decorate([
     (0, swagger_1.ApiProperty)({
         description: 'Is this concept being selected for business case evaluation',
     }),
-    __metadata("design:type", Boolean)
+    __metadata("design:type", String)
 ], CreateConceptDTO.prototype, "selectedForBusinessCase", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
         description: 'Is this concept being promoted to a Roadmap item',
     }),
-    __metadata("design:type", Boolean)
+    __metadata("design:type", String)
 ], CreateConceptDTO.prototype, "selectedForRoadmap", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({

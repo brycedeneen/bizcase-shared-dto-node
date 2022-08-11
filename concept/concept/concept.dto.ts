@@ -1,4 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
+import { SelectedENUM } from '../../enums/concept';
 
 export class ConceptDTO {
     @ApiProperty({ description: 'Concept Id' })
@@ -14,12 +15,12 @@ export class ConceptDTO {
         description:
             'Is this concept being selected for business case evaluation',
     })
-    selectedForBusinessCase: boolean;
+    selectedForBusinessCase: SelectedENUM;
 
     @ApiProperty({
         description: 'Is this concept being promoted to a Roadmap item',
     })
-    selectedForRoadmap: boolean;
+    selectedForRoadmap: SelectedENUM;
 
     @ApiProperty({
         description: 'Number of development weeks to deliver this concept',
