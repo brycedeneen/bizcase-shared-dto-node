@@ -1,3 +1,4 @@
 import * as authEnums from './auth';
 import * as companyEnums from './company';
-export { authEnums, companyEnums };
+import * as concept from './concept';
+export { authEnums, companyEnums, concept };
