@@ -46,7 +46,7 @@ __decorate([
 ], ConceptDTO.prototype, "estimatedDevTimeInWeeks", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
-        description: 'Is this theme active',
+        description: 'Is this concept active',
     }),
     __metadata("design:type", Boolean)
 ], ConceptDTO.prototype, "isActive", void 0);

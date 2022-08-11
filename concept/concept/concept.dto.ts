@@ -28,9 +28,9 @@ export class ConceptDTO {
     estimatedDevTimeInWeeks: number;
 
     @ApiProperty({
-        description: 'Is this theme active',
+        description: 'Is this concept active',
     })
     isActive: boolean;
 }
 
-export interface IConceptDTO extends ConceptDTO {}
+export interface IConceptDTO extends ConceptDTO { }

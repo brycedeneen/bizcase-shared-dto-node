@@ -1,2 +1,3 @@
 import * as concept from './concept';
-export { concept };
+import * as segment from './segment';
+export { concept, segment };

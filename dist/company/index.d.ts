@@ -4,4 +4,5 @@ import * as theme from './theme';
 import * as scoringCriteria from './scoringCriteria';
 import * as fte from './fte';
 import * as developmentCycle from './developmentCycle';
-export { company, theme, team, scoringCriteria, fte, developmentCycle };
+import * as segment from './segment';
+export { company, theme, team, scoringCriteria, fte, developmentCycle, segment };
