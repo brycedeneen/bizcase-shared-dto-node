@@ -1,8 +1,8 @@
 export declare class UpdateConceptIncrementalRevenueDTO {
     name: string;
-    IncrementalRevenueY1: number;
-    IncrementalRevenueY2: number;
-    IncrementalRevenueY3: number;
+    incrementalRevenueY1: number;
+    incrementalRevenueY2: number;
+    incrementalRevenueY3: number;
 }
 export interface IUpdateConceptIncrementalRevenueDTO extends UpdateConceptIncrementalRevenueDTO {
 }

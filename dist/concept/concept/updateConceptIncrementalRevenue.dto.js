@@ -20,14 +20,14 @@ __decorate([
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The total estimated additional revenue for year  1', example: 1000000 }),
     __metadata("design:type", Number)
-], UpdateConceptIncrementalRevenueDTO.prototype, "IncrementalRevenueY1", void 0);
+], UpdateConceptIncrementalRevenueDTO.prototype, "incrementalRevenueY1", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The total estimated additional revenue for year  2', example: 2000000 }),
     __metadata("design:type", Number)
-], UpdateConceptIncrementalRevenueDTO.prototype, "IncrementalRevenueY2", void 0);
+], UpdateConceptIncrementalRevenueDTO.prototype, "incrementalRevenueY2", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The total estimated additional revenue for year  3', example: 4000000 }),
     __metadata("design:type", Number)
-], UpdateConceptIncrementalRevenueDTO.prototype, "IncrementalRevenueY3", void 0);
+], UpdateConceptIncrementalRevenueDTO.prototype, "incrementalRevenueY3", void 0);
 exports.UpdateConceptIncrementalRevenueDTO = UpdateConceptIncrementalRevenueDTO;
 //# sourceMappingURL=updateConceptIncrementalRevenue.dto.js.map

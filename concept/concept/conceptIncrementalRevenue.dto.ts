@@ -8,13 +8,13 @@ export class ConceptIncrementalRevenueDTO {
     name: string;
 
     @ApiProperty({ description: 'The total estimated additional revenue for year  1', example: 1000000 })
-    IncrementalRevenueY1: number;
+    incrementalRevenueY1: number;
 
     @ApiProperty({ description: 'The total estimated additional revenue for year  2', example: 2000000 })
-    IncrementalRevenueY2: number;
+    incrementalRevenueY2: number;
 
     @ApiProperty({ description: 'The total estimated additional revenue for year  3', example: 4000000 })
-    IncrementalRevenueY3: number;
+    incrementalRevenueY3: number;
 
     @ApiProperty({
         description: 'Is this concept additiaonl revenue active',
