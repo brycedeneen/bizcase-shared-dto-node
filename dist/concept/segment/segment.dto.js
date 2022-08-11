@@ -267,5 +267,11 @@ __decorate([
     }),
     __metadata("design:type", Number)
 ], SegmentDTO.prototype, "numberOfUpsellSellCustomersAttributedToThisConceptY3", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Is this segment active',
+    }),
+    __metadata("design:type", Boolean)
+], SegmentDTO.prototype, "isActive", void 0);
 exports.SegmentDTO = SegmentDTO;
 //# sourceMappingURL=segment.dto.js.map

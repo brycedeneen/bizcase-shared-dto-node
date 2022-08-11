@@ -4,6 +4,7 @@ export declare class ConceptAdditionalRevenueDTO {
     additionalRevenueY1: number;
     additionalRevenueY2: number;
     additionalRevenueY3: number;
+    isActive: boolean;
 }
 export interface IConceptAdditionalRevenueDTO extends ConceptAdditionalRevenueDTO {
 }

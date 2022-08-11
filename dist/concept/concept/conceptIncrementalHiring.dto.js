@@ -45,5 +45,11 @@ __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The ID of the FTE be added' }),
     __metadata("design:type", String)
 ], ConceptIncrementalHiringDTO.prototype, "fteId", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Is this Concept Incremental Hiring Record active',
+    }),
+    __metadata("design:type", Boolean)
+], ConceptIncrementalHiringDTO.prototype, "isActive", void 0);
 exports.ConceptIncrementalHiringDTO = ConceptIncrementalHiringDTO;
 //# sourceMappingURL=conceptIncrementalHiring.dto.js.map

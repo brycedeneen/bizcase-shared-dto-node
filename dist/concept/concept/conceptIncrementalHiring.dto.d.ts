@@ -7,6 +7,7 @@ export declare class ConceptIncrementalHiringDTO {
     offShoreCountY2: number;
     offShoreCountY3: number;
     fteId: string;
+    isActive: boolean;
 }
 export interface IConceptIncrementalHiringDTO extends ConceptIncrementalHiringDTO {
 }

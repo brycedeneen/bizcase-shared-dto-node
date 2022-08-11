@@ -37,5 +37,11 @@ __decorate([
     (0, swagger_1.ApiProperty)({ description: 'Incremental Costs in Year 3' }),
     __metadata("design:type", Number)
 ], ConceptIncrementalCostDTO.prototype, "incrementalCostY3", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Is this Concept Incremental Cost active',
+    }),
+    __metadata("design:type", Boolean)
+], ConceptIncrementalCostDTO.prototype, "isActive", void 0);
 exports.ConceptIncrementalCostDTO = ConceptIncrementalCostDTO;
 //# sourceMappingURL=conceptIncrementalCost.dto.js.map

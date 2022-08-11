@@ -33,5 +33,11 @@ __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The total estimated additional revenue for year  3', example: 4000000 }),
     __metadata("design:type", Number)
 ], ConceptAdditionalRevenueDTO.prototype, "additionalRevenueY3", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Is this concept additiaonl revenue active',
+    }),
+    __metadata("design:type", Boolean)
+], ConceptAdditionalRevenueDTO.prototype, "isActive", void 0);
 exports.ConceptAdditionalRevenueDTO = ConceptAdditionalRevenueDTO;
 //# sourceMappingURL=conceptAdditionalRevenue.dto.js.map

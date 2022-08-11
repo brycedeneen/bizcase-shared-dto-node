@@ -46,6 +46,7 @@ export declare class SegmentDTO {
     numberOfNewLogosAttributedToThisConceptY3: number;
     numberOfCrossSellCustomersAttributedToThisConceptY3: number;
     numberOfUpsellSellCustomersAttributedToThisConceptY3: number;
+    isActive: boolean;
 }
 export interface ISegmentDTO extends SegmentDTO {
 }
