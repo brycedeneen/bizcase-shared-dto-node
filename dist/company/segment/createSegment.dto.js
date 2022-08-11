@@ -14,6 +14,14 @@ const swagger_1 = require("@nestjs/swagger");
 class CreateSegmentDTO {
 }
 __decorate([
+    (0, swagger_1.ApiProperty)({ description: 'Segment Name' }),
+    __metadata("design:type", String)
+], CreateSegmentDTO.prototype, "name", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({ description: 'Segment Description' }),
+    __metadata("design:type", String)
+], CreateSegmentDTO.prototype, "description", void 0);
+__decorate([
     (0, swagger_1.ApiProperty)({ description: 'Number of customers in this segment' }),
     __metadata("design:type", Number)
 ], CreateSegmentDTO.prototype, "numberOfCustomers", void 0);

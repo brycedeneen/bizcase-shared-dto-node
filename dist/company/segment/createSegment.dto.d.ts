@@ -1,4 +1,6 @@
 export declare class CreateSegmentDTO {
+    name: string;
+    description: string;
     numberOfCustomers: number;
     annualRecurringRevenue: number;
     annualAttritionPercent: number;

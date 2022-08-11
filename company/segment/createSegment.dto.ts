@@ -1,6 +1,12 @@
 import { ApiProperty } from '@nestjs/swagger';
 
 export class CreateSegmentDTO {
+    @ApiProperty({ description: 'Segment Name' })
+    name: string;
+
+    @ApiProperty({ description: 'Segment Description' })
+    description: string;
+    
     @ApiProperty({ description: 'Number of customers in this segment' })
     numberOfCustomers: number;
 
