@@ -103,7 +103,7 @@ __decorate([
 ], ScoringCriteriaDTO.prototype, "criteria10", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
-        description: 'Is this theme active',
+        description: 'Is this scoring criteria active',
     }),
     __metadata("design:type", Boolean)
 ], ScoringCriteriaDTO.prototype, "isActive", void 0);

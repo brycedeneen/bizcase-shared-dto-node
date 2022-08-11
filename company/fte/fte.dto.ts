@@ -38,7 +38,7 @@ export class FTEDTO {
     fteType: FTETypeENUM;
 
     @ApiProperty({
-        description: 'Is this theme active',
+        description: 'Is this FTE active',
     })
     isActive: boolean;
 }

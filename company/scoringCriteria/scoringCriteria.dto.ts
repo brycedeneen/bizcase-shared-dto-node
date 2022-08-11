@@ -87,7 +87,7 @@ export class ScoringCriteriaDTO {
     criteria10: string;
 
     @ApiProperty({
-        description: 'Is this theme active',
+        description: 'Is this scoring criteria active',
     })
     isActive: boolean;
 }

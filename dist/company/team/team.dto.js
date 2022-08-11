@@ -61,7 +61,7 @@ __decorate([
 ], TeamDTO.prototype, "calculatedPrioritizedConceptsCapacityInWeeks", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
-        description: 'Is this theme active',
+        description: 'Is this team active',
     }),
     __metadata("design:type", Boolean)
 ], TeamDTO.prototype, "isActive", void 0);

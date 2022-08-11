@@ -46,7 +46,7 @@ export class TeamDTO {
     calculatedPrioritizedConceptsCapacityInWeeks;
 
     @ApiProperty({
-        description: 'Is this theme active',
+        description: 'Is this team active',
     })
     isActive: boolean;
 }

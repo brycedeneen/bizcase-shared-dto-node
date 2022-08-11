@@ -52,7 +52,7 @@ __decorate([
 ], FTEDTO.prototype, "fteType", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
-        description: 'Is this theme active',
+        description: 'Is this FTE active',
     }),
     __metadata("design:type", Boolean)
 ], FTEDTO.prototype, "isActive", void 0);
