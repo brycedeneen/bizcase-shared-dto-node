@@ -16,7 +16,7 @@ class ConceptIncrementalRevenueDTO {
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'Segment Additional Revenue Id' }),
     __metadata("design:type", String)
-], ConceptIncrementalRevenueDTO.prototype, "segmentIncrementalRevenueId", void 0);
+], ConceptIncrementalRevenueDTO.prototype, "conceptIncrementalRevenueId", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'Name or title of the additional revenue', example: 'White label licensing fees' }),
     __metadata("design:type", String)

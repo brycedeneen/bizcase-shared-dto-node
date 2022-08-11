@@ -1,5 +1,5 @@
 export declare class ConceptIncrementalHiringDTO {
-    segmentIncrementalHiringId: string;
+    conceptIncrementalHiringId: string;
     onShoreCountY1: number;
     onShoreCountY2: number;
     onShoreCountY3: number;

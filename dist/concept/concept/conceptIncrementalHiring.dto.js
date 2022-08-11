@@ -16,7 +16,7 @@ class ConceptIncrementalHiringDTO {
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'Segment Incremental Hiring Id' }),
     __metadata("design:type", String)
-], ConceptIncrementalHiringDTO.prototype, "segmentIncrementalHiringId", void 0);
+], ConceptIncrementalHiringDTO.prototype, "conceptIncrementalHiringId", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The number of incremental FTEs in Year 1', example: 3 }),
     __metadata("design:type", Number)

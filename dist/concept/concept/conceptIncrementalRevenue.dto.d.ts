@@ -1,5 +1,5 @@
 export declare class ConceptIncrementalRevenueDTO {
-    segmentIncrementalRevenueId: string;
+    conceptIncrementalRevenueId: string;
     name: string;
     IncrementalRevenueY1: number;
     IncrementalRevenueY2: number;

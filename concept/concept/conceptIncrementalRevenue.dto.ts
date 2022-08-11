@@ -2,7 +2,7 @@ import { ApiProperty } from '@nestjs/swagger';
 
 export class ConceptIncrementalRevenueDTO {
     @ApiProperty({ description: 'Segment Additional Revenue Id' })
-    segmentIncrementalRevenueId: string;
+    conceptIncrementalRevenueId: string;
 
     @ApiProperty({ description: 'Name or title of the additional revenue', example: 'White label licensing fees' })
     name: string;

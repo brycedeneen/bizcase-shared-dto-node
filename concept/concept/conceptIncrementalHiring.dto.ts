@@ -2,7 +2,7 @@ import { ApiProperty } from '@nestjs/swagger';
 
 export class ConceptIncrementalHiringDTO {
     @ApiProperty({ description: 'Segment Incremental Hiring Id' })
-    segmentIncrementalHiringId: string;
+    conceptIncrementalHiringId: string;
 
     @ApiProperty({ description: 'The number of incremental FTEs in Year 1', example: 3 })
     onShoreCountY1: number;
