@@ -1,5 +1,5 @@
-export declare class CreateConceptAdditionalHiringDTO {
-    segmentAdditionalHiringId: string;
+export declare class CreateConceptIncrementalHiringDTO {
+    segmentIncrementalHiringId: string;
     onShoreCountY1: number;
     onShoreCountY2: number;
     onShoreCountY3: number;
@@ -8,5 +8,5 @@ export declare class CreateConceptAdditionalHiringDTO {
     offShoreCountY3: number;
     fteId: string;
 }
-export interface ICreateConceptAdditionalHiringDTO extends CreateConceptAdditionalHiringDTO {
+export interface ICreateConceptIncrementalHiringDTO extends CreateConceptIncrementalHiringDTO {
 }

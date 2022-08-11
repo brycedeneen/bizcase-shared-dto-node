@@ -1,18 +1,18 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UpdateConceptIncrementalHiringV1DTO = exports.CreateConceptAdditionalHiringV1DTO = exports.ConceptIncrementalHiringV1DTO = exports.UpdateConceptIncrementalCostV1DTO = exports.CreateConceptIncrementalCostV1DTO = exports.ConceptIncrementalCostV1DTO = exports.UpdateConceptAdditionalRevenueV1DTO = exports.CreateConceptAdditionalRevenueV1DTO = exports.ConceptAdditionalRevenueV1DTO = exports.UpdateConceptV1DTO = exports.CreateConceptV1DTO = exports.ConceptV1DTO = void 0;
+exports.UpdateConceptIncrementalHiringV1DTO = exports.CreateConceptIncrementalHiringV1DTO = exports.ConceptIncrementalHiringV1DTO = exports.UpdateConceptIncrementalCostV1DTO = exports.CreateConceptIncrementalCostV1DTO = exports.ConceptIncrementalCostV1DTO = exports.UpdateConceptIncrementalRevenueV1DTO = exports.CreateConceptIncrementalRevenueV1DTO = exports.ConceptIncrementalRevenueV1DTO = exports.UpdateConceptV1DTO = exports.CreateConceptV1DTO = exports.ConceptV1DTO = void 0;
 const concept_dto_1 = require("./concept.dto");
 Object.defineProperty(exports, "ConceptV1DTO", { enumerable: true, get: function () { return concept_dto_1.ConceptDTO; } });
 const createConcept_dto_1 = require("./createConcept.dto");
 Object.defineProperty(exports, "CreateConceptV1DTO", { enumerable: true, get: function () { return createConcept_dto_1.CreateConceptDTO; } });
 const updateConcept_dto_1 = require("./updateConcept.dto");
 Object.defineProperty(exports, "UpdateConceptV1DTO", { enumerable: true, get: function () { return updateConcept_dto_1.UpdateConceptDTO; } });
-const conceptAdditionalRevenue_dto_1 = require("./conceptAdditionalRevenue.dto");
-Object.defineProperty(exports, "ConceptAdditionalRevenueV1DTO", { enumerable: true, get: function () { return conceptAdditionalRevenue_dto_1.ConceptAdditionalRevenueDTO; } });
-const createConceptAdditionalRevenue_dto_1 = require("./createConceptAdditionalRevenue.dto");
-Object.defineProperty(exports, "CreateConceptAdditionalRevenueV1DTO", { enumerable: true, get: function () { return createConceptAdditionalRevenue_dto_1.CreateConceptAdditionalRevenueDTO; } });
-const updateConceptAdditionalRevenue_dto_1 = require("./updateConceptAdditionalRevenue.dto");
-Object.defineProperty(exports, "UpdateConceptAdditionalRevenueV1DTO", { enumerable: true, get: function () { return updateConceptAdditionalRevenue_dto_1.UpdateConceptAdditionalRevenueDTO; } });
+const conceptIncrementalRevenue_dto_1 = require("./conceptIncrementalRevenue.dto");
+Object.defineProperty(exports, "ConceptIncrementalRevenueV1DTO", { enumerable: true, get: function () { return conceptIncrementalRevenue_dto_1.ConceptIncrementalRevenueDTO; } });
+const createConceptIncrementalRevenue_dto_1 = require("./createConceptIncrementalRevenue.dto");
+Object.defineProperty(exports, "CreateConceptIncrementalRevenueV1DTO", { enumerable: true, get: function () { return createConceptIncrementalRevenue_dto_1.CreateConceptIncrementalRevenueDTO; } });
+const updateConceptIncrementalRevenue_dto_1 = require("./updateConceptIncrementalRevenue.dto");
+Object.defineProperty(exports, "UpdateConceptIncrementalRevenueV1DTO", { enumerable: true, get: function () { return updateConceptIncrementalRevenue_dto_1.UpdateConceptIncrementalRevenueDTO; } });
 const conceptIncrementalCost_dto_1 = require("./conceptIncrementalCost.dto");
 Object.defineProperty(exports, "ConceptIncrementalCostV1DTO", { enumerable: true, get: function () { return conceptIncrementalCost_dto_1.ConceptIncrementalCostDTO; } });
 const createConceptIncrementalCost_dto_1 = require("./createConceptIncrementalCost.dto");
@@ -22,7 +22,7 @@ Object.defineProperty(exports, "UpdateConceptIncrementalCostV1DTO", { enumerable
 const conceptIncrementalHiring_dto_1 = require("./conceptIncrementalHiring.dto");
 Object.defineProperty(exports, "ConceptIncrementalHiringV1DTO", { enumerable: true, get: function () { return conceptIncrementalHiring_dto_1.ConceptIncrementalHiringDTO; } });
 const createConceptIncrementalHiring_dto_1 = require("./createConceptIncrementalHiring.dto");
-Object.defineProperty(exports, "CreateConceptAdditionalHiringV1DTO", { enumerable: true, get: function () { return createConceptIncrementalHiring_dto_1.CreateConceptAdditionalHiringDTO; } });
+Object.defineProperty(exports, "CreateConceptIncrementalHiringV1DTO", { enumerable: true, get: function () { return createConceptIncrementalHiring_dto_1.CreateConceptIncrementalHiringDTO; } });
 const updateConceptIncrementalHiring_dto_1 = require("./updateConceptIncrementalHiring.dto");
 Object.defineProperty(exports, "UpdateConceptIncrementalHiringV1DTO", { enumerable: true, get: function () { return updateConceptIncrementalHiring_dto_1.UpdateConceptIncrementalHiringDTO; } });
 //# sourceMappingURL=index.js.map

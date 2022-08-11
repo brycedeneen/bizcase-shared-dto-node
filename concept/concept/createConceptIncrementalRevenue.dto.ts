@@ -1,17 +1,17 @@
 import { ApiProperty } from '@nestjs/swagger';
 
-export class CreateConceptAdditionalRevenueDTO {
+export class CreateConceptIncrementalRevenueDTO {
     @ApiProperty({ description: 'Name or title of the additional revenue', example: 'White label licensing fees' })
     name: string;
 
     @ApiProperty({ description: 'The total estimated additional revenue for year  1', example: 1000000 })
-    additionalRevenueY1: number;
+    IncrementalRevenueY1: number;
 
     @ApiProperty({ description: 'The total estimated additional revenue for year  2', example: 2000000 })
-    additionalRevenueY2: number;
+    IncrementalRevenueY2: number;
 
     @ApiProperty({ description: 'The total estimated additional revenue for year  3', example: 4000000 })
-    additionalRevenueY3: number;
+    IncrementalRevenueY3: number;
 }
 
-export interface ICreateConceptAdditionalRevenueDTO extends CreateConceptAdditionalRevenueDTO { }
+export interface ICreateConceptIncrementalRevenueDTO extends CreateConceptIncrementalRevenueDTO { }

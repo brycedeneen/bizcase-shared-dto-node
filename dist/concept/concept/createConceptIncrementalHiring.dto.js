@@ -9,41 +9,41 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CreateConceptAdditionalHiringDTO = void 0;
+exports.CreateConceptIncrementalHiringDTO = void 0;
 const swagger_1 = require("@nestjs/swagger");
-class CreateConceptAdditionalHiringDTO {
+class CreateConceptIncrementalHiringDTO {
 }
 __decorate([
-    (0, swagger_1.ApiProperty)({ description: 'Segment Additional Hiring Id' }),
+    (0, swagger_1.ApiProperty)({ description: 'Segment Incremental Hiring Id' }),
     __metadata("design:type", String)
-], CreateConceptAdditionalHiringDTO.prototype, "segmentAdditionalHiringId", void 0);
+], CreateConceptIncrementalHiringDTO.prototype, "segmentIncrementalHiringId", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The number of incremental FTEs in Year 1', example: 3 }),
     __metadata("design:type", Number)
-], CreateConceptAdditionalHiringDTO.prototype, "onShoreCountY1", void 0);
+], CreateConceptIncrementalHiringDTO.prototype, "onShoreCountY1", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The number of incremental FTEs in Year 2', example: 2 }),
     __metadata("design:type", Number)
-], CreateConceptAdditionalHiringDTO.prototype, "onShoreCountY2", void 0);
+], CreateConceptIncrementalHiringDTO.prototype, "onShoreCountY2", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The number of incremental FTEs in Year 3', example: 1 }),
     __metadata("design:type", Number)
-], CreateConceptAdditionalHiringDTO.prototype, "onShoreCountY3", void 0);
+], CreateConceptIncrementalHiringDTO.prototype, "onShoreCountY3", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The number of incremental FTEs in Year 1', example: 3 }),
     __metadata("design:type", Number)
-], CreateConceptAdditionalHiringDTO.prototype, "offShoreCountY1", void 0);
+], CreateConceptIncrementalHiringDTO.prototype, "offShoreCountY1", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The number of incremental FTEs in Year 2', example: 2 }),
     __metadata("design:type", Number)
-], CreateConceptAdditionalHiringDTO.prototype, "offShoreCountY2", void 0);
+], CreateConceptIncrementalHiringDTO.prototype, "offShoreCountY2", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The number of incremental FTEs in Year 3', example: 1 }),
     __metadata("design:type", Number)
-], CreateConceptAdditionalHiringDTO.prototype, "offShoreCountY3", void 0);
+], CreateConceptIncrementalHiringDTO.prototype, "offShoreCountY3", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'The ID of the FTE be added' }),
     __metadata("design:type", String)
-], CreateConceptAdditionalHiringDTO.prototype, "fteId", void 0);
-exports.CreateConceptAdditionalHiringDTO = CreateConceptAdditionalHiringDTO;
+], CreateConceptIncrementalHiringDTO.prototype, "fteId", void 0);
+exports.CreateConceptIncrementalHiringDTO = CreateConceptIncrementalHiringDTO;
 //# sourceMappingURL=createConceptIncrementalHiring.dto.js.map
