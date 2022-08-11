@@ -1,7 +1,8 @@
 export class UserAuthModel {
     userId: string;
-    personId: string;
     companyId: string;
+    name: string;
+    developmentCycleId: string;
     email: string;
     impersonateUserId: string;
     impersonateCompanyId: string;
@@ -10,8 +11,9 @@ export class UserAuthModel {
 
     constructor() {
         this.userId = '';
-        this.personId = '';
         this.companyId = '';
+        this.name = '';
+        this.developmentCycleId = '';
         this.email = '';
         this.token = '';
         this.refreshToken = '';

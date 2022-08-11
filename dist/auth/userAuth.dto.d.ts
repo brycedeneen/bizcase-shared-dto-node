@@ -1,7 +1,8 @@
 export declare class UserAuthModel {
     userId: string;
-    personId: string;
     companyId: string;
+    name: string;
+    developmentCycleId: string;
     email: string;
     impersonateUserId: string;
     impersonateCompanyId: string;

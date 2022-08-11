@@ -4,8 +4,9 @@ exports.UserAuthModel = void 0;
 class UserAuthModel {
     constructor() {
         this.userId = '';
-        this.personId = '';
         this.companyId = '';
+        this.name = '';
+        this.developmentCycleId = '';
         this.email = '';
         this.token = '';
         this.refreshToken = '';
