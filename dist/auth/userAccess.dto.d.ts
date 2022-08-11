@@ -1,7 +1,7 @@
-import { EmployeeIdCompanyIdAccessDTO } from './employeeIdCompanyIdAccess.dto';
+import { UserIdCompanyIdAccessDTO } from './userIdCompanyIdAccess.dto';
 export declare class UserAccessDTO {
     userId: string;
-    employeeIdCompanyIdAccess: EmployeeIdCompanyIdAccessDTO[];
+    userIdCompanyIdAccess: UserIdCompanyIdAccessDTO[];
 }
 export interface IUserAccessDTO extends UserAccessDTO {
 }

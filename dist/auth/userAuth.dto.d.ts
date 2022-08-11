@@ -1,11 +1,10 @@
 export declare class UserAuthModel {
     userId: string;
-    employeeId: string;
     personId: string;
     companyId: string;
     email: string;
-    impersonateEmployeeId: string;
-    impersonateEmployerId: string;
+    impersonateUserId: string;
+    impersonateCompanyId: string;
     token: string;
     refreshToken: string;
     constructor();

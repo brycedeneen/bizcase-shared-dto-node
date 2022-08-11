@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UserAuthV1Model = exports.ResetPasswordV1DTO = exports.RenewTokenV1DTO = exports.RegisterUserResponseV1DTO = exports.RegisterUserV1DTO = exports.LoginResponseV1DTO = exports.LoginV1DTO = exports.ConfirmUserRegistrationV1DTO = exports.ConfirmResetPasswordV1DTO = exports.ChangePasswordV1DTO = exports.AdminCognitoUserV1DTO = exports.UserAccessV1DTO = exports.EmployeeIdCompanyIdAccessV1DTO = void 0;
+exports.UserAuthV1Model = exports.ResetPasswordV1DTO = exports.RenewTokenV1DTO = exports.RegisterUserResponseV1DTO = exports.RegisterUserV1DTO = exports.LoginResponseV1DTO = exports.LoginV1DTO = exports.ConfirmUserRegistrationV1DTO = exports.ConfirmResetPasswordV1DTO = exports.ChangePasswordV1DTO = exports.AdminCognitoUserV1DTO = exports.UserAccessV1DTO = exports.UserIdCompanyIdAccessV1DTO = void 0;
 const adminCognitoUser_dto_1 = require("./adminCognitoUser.dto");
 Object.defineProperty(exports, "AdminCognitoUserV1DTO", { enumerable: true, get: function () { return adminCognitoUser_dto_1.AdminCognitoUserDTO; } });
 const changePassword_dto_1 = require("./changePassword.dto");
@@ -9,8 +9,8 @@ const confirmResetPassword_dto_1 = require("./confirmResetPassword.dto");
 Object.defineProperty(exports, "ConfirmResetPasswordV1DTO", { enumerable: true, get: function () { return confirmResetPassword_dto_1.ConfirmResetPasswordDTO; } });
 const confirmUserRegistration_dto_1 = require("./confirmUserRegistration.dto");
 Object.defineProperty(exports, "ConfirmUserRegistrationV1DTO", { enumerable: true, get: function () { return confirmUserRegistration_dto_1.ConfirmUserRegistrationDTO; } });
-const employeeIdCompanyIdAccess_dto_1 = require("./employeeIdCompanyIdAccess.dto");
-Object.defineProperty(exports, "EmployeeIdCompanyIdAccessV1DTO", { enumerable: true, get: function () { return employeeIdCompanyIdAccess_dto_1.EmployeeIdCompanyIdAccessDTO; } });
+const userIdCompanyIdAccess_dto_1 = require("./userIdCompanyIdAccess.dto");
+Object.defineProperty(exports, "UserIdCompanyIdAccessV1DTO", { enumerable: true, get: function () { return userIdCompanyIdAccess_dto_1.UserIdCompanyIdAccessDTO; } });
 const login_dto_1 = require("./login.dto");
 Object.defineProperty(exports, "LoginV1DTO", { enumerable: true, get: function () { return login_dto_1.LoginDTO; } });
 const loginResponse_dto_1 = require("./loginResponse.dto");

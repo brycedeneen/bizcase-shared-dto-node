@@ -1,5 +1,4 @@
 export class RegisterUserResponseDTO {
-    personId: string;
     userId: string;
 }
 

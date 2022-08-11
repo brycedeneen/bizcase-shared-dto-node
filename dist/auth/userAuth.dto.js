@@ -5,13 +5,12 @@ class UserAuthModel {
     constructor() {
         this.userId = '';
         this.personId = '';
-        this.employeeId = '';
         this.companyId = '';
         this.email = '';
         this.token = '';
         this.refreshToken = '';
-        this.impersonateEmployeeId = '';
-        this.impersonateEmployerId = '';
+        this.impersonateUserId = '';
+        this.impersonateCompanyId = '';
     }
 }
 exports.UserAuthModel = UserAuthModel;

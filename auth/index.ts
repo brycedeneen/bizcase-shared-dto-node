@@ -15,9 +15,9 @@ import {
     IConfirmUserRegistrationDTO as IConfirmUserRegistrationV1DTO,
 } from './confirmUserRegistration.dto';
 import {
-    EmployeeIdCompanyIdAccessDTO as EmployeeIdCompanyIdAccessV1DTO,
-    IEmployeeIdCompanyIdAccessDTO as IEmployeeIdCompanyIdAccessV1DTO,
-} from './employeeIdCompanyIdAccess.dto';
+    UserIdCompanyIdAccessDTO as UserIdCompanyIdAccessV1DTO,
+    IUserIdCompanyIdAccessDTO as IUserIdCompanyIdAccessV1DTO,
+} from './userIdCompanyIdAccess.dto';
 import { ILoginDTO as ILoginV1DTO, LoginDTO as LoginV1DTO } from './login.dto';
 import {
     ILoginResponseDTO as ILoginResponseV1DTO,
@@ -49,8 +49,8 @@ import {
 } from './userAuth.dto';
 
 export {
-    EmployeeIdCompanyIdAccessV1DTO,
-    IEmployeeIdCompanyIdAccessV1DTO,
+    UserIdCompanyIdAccessV1DTO,
+    IUserIdCompanyIdAccessV1DTO,
     UserAccessV1DTO,
     IUserAccessV1DTO,
     AdminCognitoUserV1DTO,
