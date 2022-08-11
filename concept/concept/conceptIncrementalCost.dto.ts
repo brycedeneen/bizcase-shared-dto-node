@@ -18,6 +18,11 @@ export class ConceptIncrementalCostDTO {
 
     @ApiProperty({ description: 'Incremental Costs in Year 3' })
     incrementalCostY3: number;
+
+    @ApiProperty({
+        description: 'Is this Concept Incremental Cost active',
+    })
+    isActive: boolean;
 }
 
 export interface IConceptIncrementalCostDTO extends ConceptIncrementalCostDTO { }

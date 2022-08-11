@@ -25,6 +25,10 @@ export class ConceptIncrementalHiringDTO {
     @ApiProperty({ description: 'The ID of the FTE be added' })
     fteId: string
 
+    @ApiProperty({
+        description: 'Is this Concept Incremental Hiring Record active',
+    })
+    isActive: boolean;
 }
 
 export interface IConceptIncrementalHiringDTO extends ConceptIncrementalHiringDTO { }

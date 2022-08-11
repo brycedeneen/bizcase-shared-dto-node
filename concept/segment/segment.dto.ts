@@ -215,6 +215,11 @@ export class SegmentDTO {
     })
     numberOfUpsellSellCustomersAttributedToThisConceptY3: number;
     // Y3 Sales End
+
+    @ApiProperty({
+        description: 'Is this segment active',
+    })
+    isActive: boolean;
 }
 
-export interface ISegmentDTO extends SegmentDTO {}
+export interface ISegmentDTO extends SegmentDTO { }

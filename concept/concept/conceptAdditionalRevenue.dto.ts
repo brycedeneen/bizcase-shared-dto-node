@@ -15,6 +15,11 @@ export class ConceptAdditionalRevenueDTO {
 
     @ApiProperty({ description: 'The total estimated additional revenue for year  3', example: 4000000 })
     additionalRevenueY3: number;
+
+    @ApiProperty({
+        description: 'Is this concept additiaonl revenue active',
+    })
+    isActive: boolean;
 }
 
 export interface IConceptAdditionalRevenueDTO extends ConceptAdditionalRevenueDTO { }
