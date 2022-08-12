@@ -4,8 +4,8 @@ export declare class TeamDTO {
     percentAllocatedToDevelopment: number;
     percentAllocatedToPrioritizedConcepts: number;
     percentOfYearTeamIsActive: number;
-    calculatedDevelopmentCapacityInWeeks: any;
-    calculatedPrioritizedConceptsCapacityInWeeks: any;
+    calculatedDevelopmentCapacityInWeeks: number;
+    calculatedPrioritizedConceptsCapacityInWeeks: number;
     isActive: boolean;
 }
 export interface ITeamDTO extends TeamDTO {

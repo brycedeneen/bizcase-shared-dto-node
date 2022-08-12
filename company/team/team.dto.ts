@@ -36,14 +36,14 @@ export class TeamDTO {
             'A calculated value of the total productive development weeks in the development cycle this team will have.',
         example: 200,
     })
-    calculatedDevelopmentCapacityInWeeks;
+    calculatedDevelopmentCapacityInWeeks: number;
 
     @ApiProperty({
         description:
             'A calculated value of the total productive development weeks in the development cycle this team will have to work on prioritized concepts',
         example: 150,
     })
-    calculatedPrioritizedConceptsCapacityInWeeks;
+    calculatedPrioritizedConceptsCapacityInWeeks: number;
 
     @ApiProperty({
         description: 'Is this team active',

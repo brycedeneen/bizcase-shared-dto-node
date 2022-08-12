@@ -50,14 +50,14 @@ __decorate([
         description: 'A calculated value of the total productive development weeks in the development cycle this team will have.',
         example: 200,
     }),
-    __metadata("design:type", Object)
+    __metadata("design:type", Number)
 ], TeamDTO.prototype, "calculatedDevelopmentCapacityInWeeks", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
         description: 'A calculated value of the total productive development weeks in the development cycle this team will have to work on prioritized concepts',
         example: 150,
     }),
-    __metadata("design:type", Object)
+    __metadata("design:type", Number)
 ], TeamDTO.prototype, "calculatedPrioritizedConceptsCapacityInWeeks", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
