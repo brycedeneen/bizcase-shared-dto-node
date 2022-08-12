@@ -29,9 +29,5 @@ __decorate([
     (0, swagger_1.ApiProperty)({ description: 'Team FTE Id' }),
     __metadata("design:type", String)
 ], CreateTeamFTEDTO.prototype, "fteId", void 0);
-__decorate([
-    (0, swagger_1.ApiProperty)({ description: 'Team FTE Name' }),
-    __metadata("design:type", String)
-], CreateTeamFTEDTO.prototype, "fteName", void 0);
 exports.CreateTeamFTEDTO = CreateTeamFTEDTO;
 //# sourceMappingURL=createTeamFTE.dto.js.map

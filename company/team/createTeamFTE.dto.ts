@@ -15,9 +15,6 @@ export class CreateTeamFTEDTO {
 
     @ApiProperty({ description: 'Team FTE Id' })
     fteId: string;
-
-    @ApiProperty({ description: 'Team FTE Name' })
-    fteName: string;
 }
 
 export interface ICreateTeamFTEDTO extends CreateTeamFTEDTO {}
