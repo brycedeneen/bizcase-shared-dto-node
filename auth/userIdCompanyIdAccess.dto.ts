@@ -3,7 +3,6 @@ import { PermissionsENUM } from '../enums/auth';
 
 export class UserIdCompanyIdAccessDTO {
     userId: string;
-    companyId: string;
     company: CompanyV1DTO;
     permissions: PermissionsENUM[];
 }
