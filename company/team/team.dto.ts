@@ -46,6 +46,12 @@ export class TeamDTO {
     calculatedPrioritizedConceptsCapacityInWeeks: number;
 
     @ApiProperty({
+        description: 'A calculated value of the total cost for this team',
+        example: 1500000,
+    })
+    calculatedTotalCosts: number;
+
+    @ApiProperty({
         description: 'Is this team active',
     })
     isActive: boolean;

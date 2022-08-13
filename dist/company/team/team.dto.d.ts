@@ -6,6 +6,7 @@ export declare class TeamDTO {
     percentOfYearTeamIsActive: number;
     calculatedDevelopmentCapacityInWeeks: number;
     calculatedPrioritizedConceptsCapacityInWeeks: number;
+    calculatedTotalCosts: number;
     isActive: boolean;
 }
 export interface ITeamDTO extends TeamDTO {

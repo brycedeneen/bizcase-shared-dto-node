@@ -61,6 +61,13 @@ __decorate([
 ], TeamDTO.prototype, "calculatedPrioritizedConceptsCapacityInWeeks", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
+        description: 'A calculated value of the total cost for this team',
+        example: 1500000,
+    }),
+    __metadata("design:type", Number)
+], TeamDTO.prototype, "calculatedTotalCosts", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
         description: 'Is this team active',
     }),
     __metadata("design:type", Boolean)
