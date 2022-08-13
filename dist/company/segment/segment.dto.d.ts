@@ -18,6 +18,7 @@ export declare class SegmentDTO {
     averageNewLogoImplementationCycleinMonths: number;
     averageCrossSellSalesCycleinMonths: number;
     averageCrossSellImplementationCycleinMonths: number;
+    salesAreSeasonal: boolean;
     averageSalesPercentJanuary: number;
     averageSalesPercentFebruary: number;
     averageSalesPercentMarch: number;
