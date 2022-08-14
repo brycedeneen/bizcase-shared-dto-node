@@ -1,9 +1,6 @@
+import { ConceptIncrementalCostV1DTO, ConceptIncrementalHiringV1DTO, ConceptIncrementalRevenueV1DTO, ConceptRankingV1DTO } from '.';
 import { SelectedENUM } from '../../enums/concept';
-import { ConceptSegmentDTO } from '../segment/conceptSegment.dto';
-import { ConceptIncrementalCostDTO } from './conceptIncrementalCost.dto';
-import { ConceptIncrementalHiringDTO } from './conceptIncrementalHiring.dto';
-import { ConceptIncrementalRevenueDTO } from './conceptIncrementalRevenue.dto';
-import { ConceptRankingDTO } from './conceptRanking.dto';
+import { ConceptSegmentV1DTO } from '../segment';
 export declare class ConceptDTO {
     conceptId: string;
     name: string;
@@ -14,11 +11,11 @@ export declare class ConceptDTO {
     estimatedDevTimeInWeeks: number;
     themeName: string;
     themeID: string;
-    conceptIncrementalCosts: ConceptIncrementalCostDTO[];
-    conceptIncrementalHirings: ConceptIncrementalHiringDTO[];
-    conceptIncrementalRevenues: ConceptIncrementalRevenueDTO[];
-    conceptRankings: ConceptRankingDTO[];
-    conceptSegments: ConceptSegmentDTO[];
+    conceptIncrementalCosts: ConceptIncrementalCostV1DTO[];
+    conceptIncrementalHirings: ConceptIncrementalHiringV1DTO[];
+    conceptIncrementalRevenues: ConceptIncrementalRevenueV1DTO[];
+    conceptRankings: ConceptRankingV1DTO[];
+    conceptSegments: ConceptSegmentV1DTO[];
     isActive: boolean;
 }
 export interface IConceptDTO extends ConceptDTO {
