@@ -40,6 +40,12 @@ __decorate([
 ], ConceptDTO.prototype, "selectedForRoadmap", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
+        description: 'The calcualted power score of this concept',
+    }),
+    __metadata("design:type", Number)
+], ConceptDTO.prototype, "calculatedPowerScore", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
         description: 'Number of development weeks to deliver this concept',
     }),
     __metadata("design:type", Number)

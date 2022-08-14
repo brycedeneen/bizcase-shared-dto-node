@@ -23,6 +23,11 @@ export class ConceptDTO {
     selectedForRoadmap: SelectedENUM;
 
     @ApiProperty({
+        description: 'The calcualted power score of this concept',
+    })
+    calculatedPowerScore: number;
+
+    @ApiProperty({
         description: 'Number of development weeks to deliver this concept',
     })
     estimatedDevTimeInWeeks: number;
@@ -33,4 +38,4 @@ export class ConceptDTO {
     isActive: boolean;
 }
 
-export interface IConceptDTO extends ConceptDTO { }
+export interface IConceptDTO extends ConceptDTO {}

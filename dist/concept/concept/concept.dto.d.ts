@@ -5,6 +5,7 @@ export declare class ConceptDTO {
     description: string;
     selectedForBusinessCase: SelectedENUM;
     selectedForRoadmap: SelectedENUM;
+    calculatedPowerScore: number;
     estimatedDevTimeInWeeks: number;
     isActive: boolean;
 }
