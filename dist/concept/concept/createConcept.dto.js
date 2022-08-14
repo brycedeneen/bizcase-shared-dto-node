@@ -40,5 +40,11 @@ __decorate([
     }),
     __metadata("design:type", Number)
 ], CreateConceptDTO.prototype, "estimatedDevTimeInWeeks", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Theme Id associated with this concept',
+    }),
+    __metadata("design:type", String)
+], CreateConceptDTO.prototype, "themeID", void 0);
 exports.CreateConceptDTO = CreateConceptDTO;
 //# sourceMappingURL=createConcept.dto.js.map

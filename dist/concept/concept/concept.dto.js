@@ -52,6 +52,18 @@ __decorate([
 ], ConceptDTO.prototype, "estimatedDevTimeInWeeks", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
+        description: 'Name of the theme associated with this concept',
+    }),
+    __metadata("design:type", String)
+], ConceptDTO.prototype, "themeName", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Theme Id associated with this concept',
+    }),
+    __metadata("design:type", String)
+], ConceptDTO.prototype, "themeID", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
         description: 'Is this concept active',
     }),
     __metadata("design:type", Boolean)

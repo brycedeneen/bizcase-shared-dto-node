@@ -33,6 +33,16 @@ export class ConceptDTO {
     estimatedDevTimeInWeeks: number;
 
     @ApiProperty({
+        description: 'Name of the theme associated with this concept',
+    })
+    themeName: string;
+
+    @ApiProperty({
+        description: 'Theme Id associated with this concept',
+    })
+    themeID: string;
+
+    @ApiProperty({
         description: 'Is this concept active',
     })
     isActive: boolean;

@@ -7,6 +7,8 @@ export declare class ConceptDTO {
     selectedForRoadmap: SelectedENUM;
     calculatedPowerScore: number;
     estimatedDevTimeInWeeks: number;
+    themeName: string;
+    themeID: string;
     isActive: boolean;
 }
 export interface IConceptDTO extends ConceptDTO {

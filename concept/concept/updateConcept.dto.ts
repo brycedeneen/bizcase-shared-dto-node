@@ -23,6 +23,11 @@ export class UpdateConceptDTO {
         description: 'Number of development weeks to deliver this concept',
     })
     estimatedDevTimeInWeeks: number;
+
+    @ApiProperty({
+        description: 'Theme Id associated with this concept',
+    })
+    themeID: string;
 }
 
 export interface IUpdateConceptDTO extends UpdateConceptDTO {}
