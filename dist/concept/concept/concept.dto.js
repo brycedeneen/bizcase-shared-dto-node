@@ -64,6 +64,36 @@ __decorate([
 ], ConceptDTO.prototype, "themeID", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
+        description: 'Incremental Costs associated with this concept (ex: licensing, travel, etc).',
+    }),
+    __metadata("design:type", Array)
+], ConceptDTO.prototype, "conceptIncrementalCosts", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Incremental Hiring associated with this concept (ex: support, marketing, development)',
+    }),
+    __metadata("design:type", Array)
+], ConceptDTO.prototype, "conceptIncrementalHirings", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Incremental Revenue associated with this concept',
+    }),
+    __metadata("design:type", Array)
+], ConceptDTO.prototype, "conceptIncrementalRevenues", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Concept Rankings associated with this concept',
+    }),
+    __metadata("design:type", Array)
+], ConceptDTO.prototype, "conceptRankings", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Segment Override Data associated with this concept',
+    }),
+    __metadata("design:type", Array)
+], ConceptDTO.prototype, "conceptSegments", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
         description: 'Is this concept active',
     }),
     __metadata("design:type", Boolean)

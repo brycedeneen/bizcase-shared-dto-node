@@ -1,5 +1,10 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { SelectedENUM } from '../../enums/concept';
+import { ConceptSegmentDTO } from '../segment/conceptSegment.dto';
+import { ConceptIncrementalCostDTO } from './conceptIncrementalCost.dto';
+import { ConceptIncrementalHiringDTO } from './conceptIncrementalHiring.dto';
+import { ConceptIncrementalRevenueDTO } from './conceptIncrementalRevenue.dto';
+import { ConceptRankingDTO } from './conceptRanking.dto';
 
 export class ConceptDTO {
     @ApiProperty({ description: 'Concept Id' })
@@ -41,6 +46,33 @@ export class ConceptDTO {
         description: 'Theme Id associated with this concept',
     })
     themeID: string;
+
+    @ApiProperty({
+        description:
+            'Incremental Costs associated with this concept (ex: licensing, travel, etc).',
+    })
+    conceptIncrementalCosts: ConceptIncrementalCostDTO[];
+
+    @ApiProperty({
+        description:
+            'Incremental Hiring associated with this concept (ex: support, marketing, development)',
+    })
+    conceptIncrementalHirings: ConceptIncrementalHiringDTO[];
+
+    @ApiProperty({
+        description: 'Incremental Revenue associated with this concept',
+    })
+    conceptIncrementalRevenues: ConceptIncrementalRevenueDTO[];
+
+    @ApiProperty({
+        description: 'Concept Rankings associated with this concept',
+    })
+    conceptRankings: ConceptRankingDTO[];
+
+    @ApiProperty({
+        description: 'Segment Override Data associated with this concept',
+    })
+    conceptSegments: ConceptSegmentDTO[];
 
     @ApiProperty({
         description: 'Is this concept active',
