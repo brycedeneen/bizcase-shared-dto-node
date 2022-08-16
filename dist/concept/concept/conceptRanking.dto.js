@@ -22,6 +22,10 @@ __decorate([
     __metadata("design:type", Number)
 ], ConceptRankingDTO.prototype, "selectedRanking", void 0);
 __decorate([
+    (0, swagger_1.ApiProperty)({ description: 'Scoring Criteria Id' }),
+    __metadata("design:type", String)
+], ConceptRankingDTO.prototype, "scoringCriteriaId", void 0);
+__decorate([
     (0, swagger_1.ApiProperty)({
         description: 'Is this concept active',
     }),

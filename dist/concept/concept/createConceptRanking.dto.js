@@ -17,5 +17,9 @@ __decorate([
     (0, swagger_1.ApiProperty)({ description: 'Selected Ranking' }),
     __metadata("design:type", Number)
 ], CreateConceptRankingDTO.prototype, "selectedRanking", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({ description: 'Scoring Criteria Id' }),
+    __metadata("design:type", String)
+], CreateConceptRankingDTO.prototype, "scoringCriteriaId", void 0);
 exports.CreateConceptRankingDTO = CreateConceptRankingDTO;
 //# sourceMappingURL=createConceptRanking.dto.js.map

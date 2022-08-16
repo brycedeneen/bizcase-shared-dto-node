@@ -7,10 +7,13 @@ export class ConceptRankingDTO {
     @ApiProperty({ description: 'Selected Ranking' })
     selectedRanking: number;
 
+    @ApiProperty({ description: 'Scoring Criteria Id' })
+    scoringCriteriaId: string;
+
     @ApiProperty({
         description: 'Is this concept active',
     })
     isActive: boolean;
 }
 
-export interface IConceptRankingDTO extends ConceptRankingDTO { }
+export interface IConceptRankingDTO extends ConceptRankingDTO {}
