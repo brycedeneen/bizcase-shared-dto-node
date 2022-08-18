@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TeamFTEDTO = void 0;
 const swagger_1 = require("@nestjs/swagger");
+const fte_1 = require("../fte");
 class TeamFTEDTO {
 }
 __decorate([
@@ -35,7 +36,7 @@ __decorate([
 ], TeamFTEDTO.prototype, "fteId", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({ description: 'Team FTE Name' }),
-    __metadata("design:type", String)
-], TeamFTEDTO.prototype, "fteName", void 0);
+    __metadata("design:type", fte_1.FTEV1DTO)
+], TeamFTEDTO.prototype, "fte", void 0);
 exports.TeamFTEDTO = TeamFTEDTO;
 //# sourceMappingURL=teamFTE.dto.js.map

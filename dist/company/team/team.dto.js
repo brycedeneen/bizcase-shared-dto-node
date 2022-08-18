@@ -68,6 +68,12 @@ __decorate([
 ], TeamDTO.prototype, "calculatedTotalCosts", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
+        description: 'A list of Team FTEs',
+    }),
+    __metadata("design:type", Array)
+], TeamDTO.prototype, "teamFTEs", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
         description: 'Is this team active',
     }),
     __metadata("design:type", Boolean)

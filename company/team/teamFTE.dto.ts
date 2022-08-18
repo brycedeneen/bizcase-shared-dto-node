@@ -1,4 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
+import { FTEV1DTO } from '../fte';
 
 export class TeamFTEDTO {
     @ApiProperty({ description: 'Team FTE Id' })
@@ -20,7 +21,7 @@ export class TeamFTEDTO {
     fteId: string;
 
     @ApiProperty({ description: 'Team FTE Name' })
-    fteName: string;
+    fte: FTEV1DTO;
 }
 
 export interface ITeamFTEDTO extends TeamFTEDTO {}

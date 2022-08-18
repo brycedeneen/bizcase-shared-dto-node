@@ -1,4 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
+import { TeamFTEV1DTO } from '.';
 
 export class TeamDTO {
     @ApiProperty({ description: 'Team Id' })
@@ -50,6 +51,11 @@ export class TeamDTO {
         example: 1500000,
     })
     calculatedTotalCosts: number;
+
+    @ApiProperty({
+        description: 'A list of Team FTEs',
+    })
+    teamFTEs: TeamFTEV1DTO[];
 
     @ApiProperty({
         description: 'Is this team active',
