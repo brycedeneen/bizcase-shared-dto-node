@@ -43,6 +43,7 @@ export declare class CreateConceptSegmentDTO {
     averageSalesPercentOctober: number;
     averageSalesPercentNovember: number;
     averageSalesPercentDecember: number;
+    segmentId: string;
 }
 export interface ICreateConceptSegmentDTO extends CreateConceptSegmentDTO {
 }
