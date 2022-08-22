@@ -36,5 +36,12 @@ __decorate([
     }),
     __metadata("design:type", String)
 ], UpdateDevelopmentCycleDTO.prototype, "endDate", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Net Present Value of this development cycle',
+        example: '0.12',
+    }),
+    __metadata("design:type", Number)
+], UpdateDevelopmentCycleDTO.prototype, "netPresentValuePercent", void 0);
 exports.UpdateDevelopmentCycleDTO = UpdateDevelopmentCycleDTO;
 //# sourceMappingURL=updateDevelopmentcycle.dto.js.map

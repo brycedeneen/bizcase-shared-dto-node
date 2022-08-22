@@ -20,6 +20,12 @@ export class CreateDevelopmentCycleDTO {
         example: '2030-12-31',
     })
     endDate: string;
+
+    @ApiProperty({
+        description: 'Net Present Value of this development cycle',
+        example: '0.12',
+    })
+    netPresentValuePercent: number;
 }
 
 export interface ICreateDevelopmentCycleDTO extends CreateDevelopmentCycleDTO {}

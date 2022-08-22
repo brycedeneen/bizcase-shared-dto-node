@@ -25,6 +25,12 @@ export class DevelopmentCycleDTO {
     endDate: string;
 
     @ApiProperty({
+        description: 'Net Present Value of this development cycle',
+        example: '0.12',
+    })
+    netPresentValuePercent: number;
+
+    @ApiProperty({
         description: 'Is this development cycle active',
     })
     isActive: boolean;

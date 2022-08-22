@@ -3,6 +3,7 @@ export declare class DevelopmentCycleDTO {
     name: string;
     startDate: string;
     endDate: string;
+    netPresentValuePercent: number;
     isActive: boolean;
 }
 export interface IDevelopmentCycleDTO extends DevelopmentCycleDTO {
