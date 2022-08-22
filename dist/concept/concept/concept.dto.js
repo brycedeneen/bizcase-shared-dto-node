@@ -46,6 +46,12 @@ __decorate([
 ], ConceptDTO.prototype, "calculatedPowerScore", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
+        description: 'The calcualted ROI of this concept',
+    }),
+    __metadata("design:type", Number)
+], ConceptDTO.prototype, "calculatedROI", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
         description: 'Number of development weeks to deliver this concept',
     }),
     __metadata("design:type", Number)

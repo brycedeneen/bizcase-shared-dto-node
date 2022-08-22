@@ -8,6 +8,7 @@ export declare class ConceptDTO {
     selectedForBusinessCase: SelectedENUM;
     selectedForRoadmap: SelectedENUM;
     calculatedPowerScore: number;
+    calculatedROI: number;
     estimatedDevTimeInWeeks: number;
     themeName: string;
     themeID: string;

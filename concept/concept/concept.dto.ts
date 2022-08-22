@@ -35,6 +35,11 @@ export class ConceptDTO {
     calculatedPowerScore: number;
 
     @ApiProperty({
+        description: 'The calcualted ROI of this concept',
+    })
+    calculatedROI: number;
+
+    @ApiProperty({
         description: 'Number of development weeks to deliver this concept',
     })
     estimatedDevTimeInWeeks: number;
