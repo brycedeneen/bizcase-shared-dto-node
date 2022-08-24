@@ -20,5 +20,7 @@ var PermissionsENUM;
     PermissionsENUM["MODIFYFTE"] = "modifyfte";
     PermissionsENUM["GETCONCEPT"] = "getconcept";
     PermissionsENUM["MODIFYCONCEPT"] = "modifyconcept";
+    PermissionsENUM["USERADMIN"] = "useradmin";
+    PermissionsENUM["UNIVERSALADMIN"] = "universaladmin";
 })(PermissionsENUM = exports.PermissionsENUM || (exports.PermissionsENUM = {}));
 //# sourceMappingURL=permissions.enum.js.map

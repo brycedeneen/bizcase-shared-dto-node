@@ -15,5 +15,7 @@ export declare enum PermissionsENUM {
     GETFTE = "getfte",
     MODIFYFTE = "modifyfte",
     GETCONCEPT = "getconcept",
-    MODIFYCONCEPT = "modifyconcept"
+    MODIFYCONCEPT = "modifyconcept",
+    USERADMIN = "useradmin",
+    UNIVERSALADMIN = "universaladmin"
 }
