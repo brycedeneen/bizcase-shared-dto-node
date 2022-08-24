@@ -1,9 +1,11 @@
 import { CompanyV1DTO } from '../company/company';
 import { PermissionsENUM } from '../enums/auth';
+import { UserDTO } from './user.dto';
 
 export class UserIdCompanyIdAccessDTO {
     userId: string;
     company: CompanyV1DTO;
+    user: UserDTO;
     permissions: PermissionsENUM[];
 }
 

@@ -47,8 +47,11 @@ import {
     IUserAuthModel as IUserAuthV1Model,
     UserAuthModel as UserAuthV1Model,
 } from './userAuth.dto';
+import { IUserDTO as IUserV1DTO, UserDTO as UserV1DTO } from './user.dto';
 
 export {
+    IUserV1DTO,
+    UserV1DTO,
     UserIdCompanyIdAccessV1DTO,
     IUserIdCompanyIdAccessV1DTO,
     UserAccessV1DTO,

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UserAuthV1Model = exports.ResetPasswordV1DTO = exports.RenewTokenV1DTO = exports.RegisterUserResponseV1DTO = exports.RegisterUserV1DTO = exports.LoginResponseV1DTO = exports.LoginV1DTO = exports.ConfirmUserRegistrationV1DTO = exports.ConfirmResetPasswordV1DTO = exports.ChangePasswordV1DTO = exports.AdminCognitoUserV1DTO = exports.UserAccessV1DTO = exports.UserIdCompanyIdAccessV1DTO = void 0;
+exports.UserAuthV1Model = exports.ResetPasswordV1DTO = exports.RenewTokenV1DTO = exports.RegisterUserResponseV1DTO = exports.RegisterUserV1DTO = exports.LoginResponseV1DTO = exports.LoginV1DTO = exports.ConfirmUserRegistrationV1DTO = exports.ConfirmResetPasswordV1DTO = exports.ChangePasswordV1DTO = exports.AdminCognitoUserV1DTO = exports.UserAccessV1DTO = exports.UserIdCompanyIdAccessV1DTO = exports.UserV1DTO = void 0;
 const adminCognitoUser_dto_1 = require("./adminCognitoUser.dto");
 Object.defineProperty(exports, "AdminCognitoUserV1DTO", { enumerable: true, get: function () { return adminCognitoUser_dto_1.AdminCognitoUserDTO; } });
 const changePassword_dto_1 = require("./changePassword.dto");
@@ -27,4 +27,6 @@ const userAccess_dto_1 = require("./userAccess.dto");
 Object.defineProperty(exports, "UserAccessV1DTO", { enumerable: true, get: function () { return userAccess_dto_1.UserAccessDTO; } });
 const userAuth_dto_1 = require("./userAuth.dto");
 Object.defineProperty(exports, "UserAuthV1Model", { enumerable: true, get: function () { return userAuth_dto_1.UserAuthModel; } });
+const user_dto_1 = require("./user.dto");
+Object.defineProperty(exports, "UserV1DTO", { enumerable: true, get: function () { return user_dto_1.UserDTO; } });
 //# sourceMappingURL=index.js.map
