@@ -8,6 +8,7 @@ export declare class TeamDTO {
     calculatedDevelopmentCapacityInWeeks: number;
     calculatedPrioritizedConceptsCapacityInWeeks: number;
     calculatedTotalCosts: number;
+    calculatedDevelopmentWeekTotalCosts: number;
     teamFTEs: TeamFTEV1DTO[];
     isActive: boolean;
 }
