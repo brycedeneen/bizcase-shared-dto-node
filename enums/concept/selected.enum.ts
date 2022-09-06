@@ -3,4 +3,5 @@ export enum SelectedENUM {
     NO = 'no',
     INPROGRESS = 'inprogress',
     NOTSTARTED = 'notstarted',
+    YESNOBIZCASE = 'yesnobizcase',
 }

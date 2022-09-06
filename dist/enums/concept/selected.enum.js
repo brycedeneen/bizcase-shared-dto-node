@@ -7,5 +7,6 @@ var SelectedENUM;
     SelectedENUM["NO"] = "no";
     SelectedENUM["INPROGRESS"] = "inprogress";
     SelectedENUM["NOTSTARTED"] = "notstarted";
+    SelectedENUM["YESNOBIZCASE"] = "yesnobizcase";
 })(SelectedENUM = exports.SelectedENUM || (exports.SelectedENUM = {}));
 //# sourceMappingURL=selected.enum.js.map
