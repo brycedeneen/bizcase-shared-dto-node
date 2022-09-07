@@ -10,6 +10,8 @@ export declare class ConceptDTO {
     calculatedPowerScore: number;
     calculatedROI: number;
     estimatedDevTimeInWeeks: number;
+    monthsUntilDevelopmentStart: number;
+    developmentDurationInMonths: number;
     themeName: string;
     themeID: string;
     conceptIncrementalCosts: ConceptIncrementalCostV1DTO[];

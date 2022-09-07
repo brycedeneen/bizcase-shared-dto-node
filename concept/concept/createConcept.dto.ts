@@ -25,6 +25,16 @@ export class CreateConceptDTO {
     estimatedDevTimeInWeeks: number;
 
     @ApiProperty({
+        description: 'Number of months until development starts',
+    })
+    monthsUntilDevelopmentStart: number;
+
+    @ApiProperty({
+        description: 'How many months will development last',
+    })
+    developmentDurationInMonths: number;
+
+    @ApiProperty({
         description: 'Theme Id associated with this concept',
     })
     themeID: string;

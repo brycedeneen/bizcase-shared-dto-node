@@ -5,6 +5,8 @@ export declare class UpdateConceptDTO {
     selectedForBusinessCase: SelectedENUM;
     selectedForRoadmap: SelectedENUM;
     estimatedDevTimeInWeeks: number;
+    monthsUntilDevelopmentStart: number;
+    developmentDurationInMonths: number;
     themeID: string;
 }
 export interface IUpdateConceptDTO extends UpdateConceptDTO {

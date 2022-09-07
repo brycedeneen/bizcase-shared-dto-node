@@ -58,6 +58,18 @@ __decorate([
 ], ConceptDTO.prototype, "estimatedDevTimeInWeeks", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
+        description: 'Number of months until development starts',
+    }),
+    __metadata("design:type", Number)
+], ConceptDTO.prototype, "monthsUntilDevelopmentStart", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'How many months will development last',
+    }),
+    __metadata("design:type", Number)
+], ConceptDTO.prototype, "developmentDurationInMonths", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
         description: 'Name of the theme associated with this concept',
     }),
     __metadata("design:type", String)

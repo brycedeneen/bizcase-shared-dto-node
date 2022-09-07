@@ -5,6 +5,8 @@ export declare class CreateConceptDTO {
     selectedForBusinessCase: SelectedENUM;
     selectedForRoadmap: SelectedENUM;
     estimatedDevTimeInWeeks: number;
+    monthsUntilDevelopmentStart: number;
+    developmentDurationInMonths: number;
     themeID: string;
 }
 export interface ICreateConceptDTO extends CreateConceptDTO {
