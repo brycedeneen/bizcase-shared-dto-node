@@ -68,7 +68,14 @@ import {
     UpdateConceptRankingDTO as UpdateConceptRankingV1DTO,
 } from './updateConceptRanking.dto';
 
+import {
+    IConceptCalculationDTO as IConceptCalculationV1DTO,
+    ConceptCalculationDTO as ConceptCalculationV1DTO,
+} from './conceptCalculation.dto';
+
 export {
+    IConceptCalculationV1DTO,
+    ConceptCalculationV1DTO,
     ConceptRankingV1DTO,
     IConceptRankingV1DTO,
     CreateConceptRankingV1DTO,
