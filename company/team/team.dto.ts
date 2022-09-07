@@ -54,10 +54,36 @@ export class TeamDTO {
 
     @ApiProperty({
         description:
-            'The fully loaded cost per development week (product, marketing, development, etc)',
+            'The fully loaded cost per team week (product, marketing, development, etc)',
         example: 2500,
     })
     calculatedDevelopmentWeekTotalCosts: number;
+
+    @ApiProperty({
+        description: 'The total number of people on the team',
+        example: 2500,
+    })
+    calculatedTotalTeamMembers: number;
+
+    @ApiProperty({
+        description: 'The total number of developers on the team',
+        example: 2500,
+    })
+    calculatedTotalDeveloperTeamMembers: number;
+
+    @ApiProperty({
+        description:
+            'The fully loaded cost per development week (product, marketing, development, etc)',
+        example: 2500,
+    })
+    calculatedConceptDevelopmentWeekCost: number;
+
+    @ApiProperty({
+        description:
+            'The fully loaded cost per development week (product, marketing, development, etc)',
+        example: 2500,
+    })
+    overrideConceptDevelopmentWeekCost: number;
 
     @ApiProperty({
         description: 'A list of Team FTEs',

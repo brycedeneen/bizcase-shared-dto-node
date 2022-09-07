@@ -3,6 +3,7 @@ export declare class CreateTeamDTO {
     percentAllocatedToDevelopment: number;
     percentAllocatedToPrioritizedConcepts: number;
     percentOfYearTeamIsActive: number;
+    overrideConceptDevelopmentWeekCost: any;
 }
 export interface ICreateTeamDTO extends CreateTeamDTO {
 }

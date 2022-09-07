@@ -41,5 +41,12 @@ __decorate([
     }),
     __metadata("design:type", Number)
 ], CreateTeamDTO.prototype, "percentOfYearTeamIsActive", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'The fully loaded cost per development week (product, marketing, development, etc)',
+        example: 2500,
+    }),
+    __metadata("design:type", Object)
+], CreateTeamDTO.prototype, "overrideConceptDevelopmentWeekCost", void 0);
 exports.CreateTeamDTO = CreateTeamDTO;
 //# sourceMappingURL=createTeam.dto.js.map

@@ -27,6 +27,13 @@ export class CreateTeamDTO {
         default: 1,
     })
     percentOfYearTeamIsActive: number;
+
+    @ApiProperty({
+        description:
+            'The fully loaded cost per development week (product, marketing, development, etc)',
+        example: 2500,
+    })
+    overrideConceptDevelopmentWeekCost;
 }
 
 export interface ICreateTeamDTO extends CreateTeamDTO {}

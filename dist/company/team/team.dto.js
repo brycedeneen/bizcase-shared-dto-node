@@ -68,11 +68,39 @@ __decorate([
 ], TeamDTO.prototype, "calculatedTotalCosts", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
-        description: 'The fully loaded cost per development week (product, marketing, development, etc)',
+        description: 'The fully loaded cost per team week (product, marketing, development, etc)',
         example: 2500,
     }),
     __metadata("design:type", Number)
 ], TeamDTO.prototype, "calculatedDevelopmentWeekTotalCosts", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'The total number of people on the team',
+        example: 2500,
+    }),
+    __metadata("design:type", Number)
+], TeamDTO.prototype, "calculatedTotalTeamMembers", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'The total number of developers on the team',
+        example: 2500,
+    }),
+    __metadata("design:type", Number)
+], TeamDTO.prototype, "calculatedTotalDeveloperTeamMembers", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'The fully loaded cost per development week (product, marketing, development, etc)',
+        example: 2500,
+    }),
+    __metadata("design:type", Number)
+], TeamDTO.prototype, "calculatedConceptDevelopmentWeekCost", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'The fully loaded cost per development week (product, marketing, development, etc)',
+        example: 2500,
+    }),
+    __metadata("design:type", Number)
+], TeamDTO.prototype, "overrideConceptDevelopmentWeekCost", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
         description: 'A list of Team FTEs',
