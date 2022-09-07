@@ -37,6 +37,12 @@ export class DevelopmentCycleDTO {
     calculatedAvgDevelopmentWeekTotalCosts: number;
 
     @ApiProperty({
+        description: 'Average total costs per week of all FTEs',
+        example: '0.12',
+    })
+    overrideAvgDevelopmentWeekTotalCosts: number;
+
+    @ApiProperty({
         description: 'Is this development cycle active',
     })
     isActive: boolean;

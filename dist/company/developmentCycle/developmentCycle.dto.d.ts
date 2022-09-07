@@ -5,6 +5,7 @@ export declare class DevelopmentCycleDTO {
     endDate: string;
     netPresentValuePercent: number;
     calculatedAvgDevelopmentWeekTotalCosts: number;
+    overrideAvgDevelopmentWeekTotalCosts: number;
     isActive: boolean;
 }
 export interface IDevelopmentCycleDTO extends DevelopmentCycleDTO {

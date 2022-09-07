@@ -56,6 +56,13 @@ __decorate([
 ], DevelopmentCycleDTO.prototype, "calculatedAvgDevelopmentWeekTotalCosts", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
+        description: 'Average total costs per week of all FTEs',
+        example: '0.12',
+    }),
+    __metadata("design:type", Number)
+], DevelopmentCycleDTO.prototype, "overrideAvgDevelopmentWeekTotalCosts", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
         description: 'Is this development cycle active',
     }),
     __metadata("design:type", Boolean)

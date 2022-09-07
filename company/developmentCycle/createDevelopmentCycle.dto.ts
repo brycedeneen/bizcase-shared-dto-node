@@ -26,6 +26,12 @@ export class CreateDevelopmentCycleDTO {
         example: '0.12',
     })
     netPresentValuePercent: number;
+
+    @ApiProperty({
+        description: 'Average total costs per week of all FTEs',
+        example: '0.12',
+    })
+    overrideAvgDevelopmentWeekTotalCosts: number;
 }
 
 export interface ICreateDevelopmentCycleDTO extends CreateDevelopmentCycleDTO {}

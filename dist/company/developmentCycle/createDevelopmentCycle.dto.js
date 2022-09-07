@@ -43,5 +43,12 @@ __decorate([
     }),
     __metadata("design:type", Number)
 ], CreateDevelopmentCycleDTO.prototype, "netPresentValuePercent", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({
+        description: 'Average total costs per week of all FTEs',
+        example: '0.12',
+    }),
+    __metadata("design:type", Number)
+], CreateDevelopmentCycleDTO.prototype, "overrideAvgDevelopmentWeekTotalCosts", void 0);
 exports.CreateDevelopmentCycleDTO = CreateDevelopmentCycleDTO;
 //# sourceMappingURL=createDevelopmentCycle.dto.js.map

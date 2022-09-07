@@ -3,6 +3,7 @@ export declare class UpdateDevelopmentCycleDTO {
     startDate: string;
     endDate: string;
     netPresentValuePercent: number;
+    overrideAvgDevelopmentWeekTotalCosts: number;
 }
 export interface IUpdateDevelopmentCycleDTO extends UpdateDevelopmentCycleDTO {
 }
