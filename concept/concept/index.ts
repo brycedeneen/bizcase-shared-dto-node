@@ -73,7 +73,14 @@ import {
     ConceptCalculationDTO as ConceptCalculationV1DTO,
 } from './conceptCalculation.dto';
 
+import {
+    IConceptSegmentCalculationDTO as IConceptSegmentCalculationV1DTO,
+    ConceptSegmentCalculationDTO as ConceptSegmentCalculationV1DTO,
+} from './conceptSegmentCalculation.dto';
+
 export {
+    ConceptSegmentCalculationV1DTO,
+    IConceptSegmentCalculationV1DTO,
     IConceptCalculationV1DTO,
     ConceptCalculationV1DTO,
     ConceptRankingV1DTO,

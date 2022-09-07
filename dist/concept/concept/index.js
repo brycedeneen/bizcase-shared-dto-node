@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UpdateConceptIncrementalHiringV1DTO = exports.CreateConceptIncrementalHiringV1DTO = exports.ConceptIncrementalHiringV1DTO = exports.UpdateConceptIncrementalCostV1DTO = exports.CreateConceptIncrementalCostV1DTO = exports.ConceptIncrementalCostV1DTO = exports.UpdateConceptIncrementalRevenueV1DTO = exports.CreateConceptIncrementalRevenueV1DTO = exports.ConceptIncrementalRevenueV1DTO = exports.UpdateConceptV1DTO = exports.CreateConceptV1DTO = exports.ConceptV1DTO = exports.UpdateConceptRankingV1DTO = exports.CreateConceptRankingV1DTO = exports.ConceptRankingV1DTO = exports.ConceptCalculationV1DTO = void 0;
+exports.UpdateConceptIncrementalHiringV1DTO = exports.CreateConceptIncrementalHiringV1DTO = exports.ConceptIncrementalHiringV1DTO = exports.UpdateConceptIncrementalCostV1DTO = exports.CreateConceptIncrementalCostV1DTO = exports.ConceptIncrementalCostV1DTO = exports.UpdateConceptIncrementalRevenueV1DTO = exports.CreateConceptIncrementalRevenueV1DTO = exports.ConceptIncrementalRevenueV1DTO = exports.UpdateConceptV1DTO = exports.CreateConceptV1DTO = exports.ConceptV1DTO = exports.UpdateConceptRankingV1DTO = exports.CreateConceptRankingV1DTO = exports.ConceptRankingV1DTO = exports.ConceptCalculationV1DTO = exports.ConceptSegmentCalculationV1DTO = void 0;
 const concept_dto_1 = require("./concept.dto");
 Object.defineProperty(exports, "ConceptV1DTO", { enumerable: true, get: function () { return concept_dto_1.ConceptDTO; } });
 const createConcept_dto_1 = require("./createConcept.dto");
@@ -33,4 +33,6 @@ const updateConceptRanking_dto_1 = require("./updateConceptRanking.dto");
 Object.defineProperty(exports, "UpdateConceptRankingV1DTO", { enumerable: true, get: function () { return updateConceptRanking_dto_1.UpdateConceptRankingDTO; } });
 const conceptCalculation_dto_1 = require("./conceptCalculation.dto");
 Object.defineProperty(exports, "ConceptCalculationV1DTO", { enumerable: true, get: function () { return conceptCalculation_dto_1.ConceptCalculationDTO; } });
+const conceptSegmentCalculation_dto_1 = require("./conceptSegmentCalculation.dto");
+Object.defineProperty(exports, "ConceptSegmentCalculationV1DTO", { enumerable: true, get: function () { return conceptSegmentCalculation_dto_1.ConceptSegmentCalculationDTO; } });
 //# sourceMappingURL=index.js.map
